@@ -1,0 +1,107 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+}
+#mennu ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: red;
+} 
+#mennu ul li{
+    display: inline;
+}
+#mennu ul li a{
+    color: yellow;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+#mennu  ul li a:hover{
+    background-color:rgb(230, 154, 32);
+}
+h1{
+    text-align: center;
+    margin: 1px;
+    color: red;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    background: red;
+    padding: 0px;
+}
+#logo{
+    width: 120px;
+}
+#vem{
+    color: yellow;
+    text-align: center;
+    margin-top: 0px;
+}
+img{
+    width: 600px;    
+    
+}
+P{
+   font-size: 25px;
+   text-align: center;
+}
+
+strong{
+    color: red;
+}
+em{
+  color:brown   
+}
+.itens{
+   color: yellow;
+   font-size: italic; 
+   margin: 15px;
+   font-size: 25px;
+}
+.beneficios{
+    
+    background: red;
+    font-size: 25px;
+    padding: 15px; 
+}
+h3{
+    color: yellow;
+   text-align: left;
+}
+
+#pizza{
+    flex: auto;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: red;
+    border-width: 6px;
+    margin: 8px;
+}
+#rodape{
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+#rodaape1{
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
